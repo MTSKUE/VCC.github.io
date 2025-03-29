@@ -1,2 +1,2 @@
-# VCC.github.io
+# vcc.github.io
 Dididada

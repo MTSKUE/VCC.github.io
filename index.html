@@ -5,21 +5,31 @@
     <meta name="viewport" content="width=device-width" />
     <title>My website</title>
     <link href="styles/style.css" rel="stylesheet" />
+    <!--这是CSS引用-->
     <link
-      href="https://fonts.googleapis.com/css?family=Open+Sans"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100..900&display=swap"
       rel="stylesheet"
     />
+    <!--这是字体引用-->
+    <link rel="icon" href="images/favicon.ico.png" type="image/x-icon" />
+    <!--这是图标引用-->
+    <script src="scripts/main.js" defer></script>
+    <!--这是JS引用-->
   </head>
   <body>
     <h1>This is my website</h1>
     <h2>Here is a headline</h2>
     <h3>this headline is very cool!</h3>
-    <img src="images/xiaowan.png" alt="The character introctions of myself." />
-    <p>Here is a paragraph of something I wrote before.</p>
+    <img
+      src="images/xiaowan.png"
+      title="This is the character image of myself."
+      alt="The character introctions of myself."
+    />
+    <p>Here is an article of something I wrote before.</p>
     <p>
-      Oh, I fantasized again, fantasizing that I fell in love with the maid next
-      door who wore glasses and had black hair, but he didn't agree with us
-      being together.
+      <strong>Oh, I fantasized again, </strong>fantasizing that I fell in love
+      with the maid next door <em>who wore glasses and had black hair,</em> but
+      he didn't agree with us being together.
     </p>
     <ul>
       <li>I was not convinced and went to argue with him,</li>
@@ -32,16 +42,16 @@
         brought my laptop that day.
       </li>
     </ul>
-    <p>
-      I was so angry that I picked up the computer and beat him up. The footage
-      was recorded by the maid and made into a kick.
-    </p>
-    <a href="https://space.bilibili.com/626920361/dynamic">
+    <!--这是利用unodered list实现的一段文本内容-->
+    <p><span lang="zh-CN">这是一段中文测试文本。</span></p>
+    <a
+      href="https://space.bilibili.com/626920361/dynamic"
+      title="This is my bilibili link."
+      target="_blank"
+    >
       A super cool link is here!
     </a>
     <p></p>
     <button>Change user</button>
-
-    <script src="scripts/main.js"></script>
   </body>
 </html>

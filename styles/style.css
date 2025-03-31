@@ -1,6 +1,6 @@
 html {
   font-size: 10px; /* px 表示“像素（pixel）”: 基础字号为 10 像素 */
-  font-family: "Noto Sans", sans-serif; /* 这应该是你从 Google Fonts 得到的其余输出。 */
+  font-family: "Noto Sans", Arial, sans-serif; /* 这应该是你从 Google Fonts 得到的其余输出。 */
 }
 
 h1,
@@ -27,17 +27,19 @@ h3 {
 
 p,
 li,
-a {
+a,
+button {
   font-size: 32px;
   line-height: 2;
   letter-spacing: 1px;
   background-color: #ffffff;
-  border: 2px solid black;
+  border: 5px solid black;
   margin-bottom: 5px;
 }
 
 button {
   font-size: 32px;
+  color: rgb(30, 0, 255);
   margin: auto;
 }
 
